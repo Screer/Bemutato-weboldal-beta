@@ -22,6 +22,6 @@
   <body>
 
     <div id="header">
-      <h1 id="sitename">PHP Portál</h1>
+      <h1 id="sitename">Bemutato weboldal</h1>
       <?php include('navigation.php'); ?>
     </div>
