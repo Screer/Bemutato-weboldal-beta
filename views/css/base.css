@@ -1,18 +1,27 @@
-/* 
-    Created on : 2014.11.25., 11:53:42
-    Author     : rych
-*/
-
 body {
-  margin: 0;
+  margin: auto;
+  max-width: 1000px;
+  background-image: url(../../imgs/bg2bw.jpg);
 }
 
 #header {
-  background-color: #c194f5;
+    background-image: url(../../imgs/bg2bw.jpg);
+  //background-color: #c194f5;
   padding: 10px 20px;
 }
+
 #header h1#sitename {
   margin: 30px 0 30px 0;
+  color: white;
+}
+
+#header #navigation a {
+    color: black;
+    background: white;
+}
+#header #navigation a:hover {
+    color: black;
+    background: #dddddd;
 }
 
 #content {
@@ -38,16 +47,46 @@ body {
 }
 
 #footer {
-  background-color: #7b0603;
+  background-image: url(../../imgs/footer_v3.jpg);
+  background-repeat: no-repeat;
   color: white;
   padding: 10px 20px;
+  text-align: center;
 }
 
-#header #navigation a {
-    color: black;
-    background: white;
+#footer a{
+    color:white;
 }
-#header #navigation a:hover {
-    color: black;
-    background: #dddddd;
+
+#footer .nav>li>a:hover, 
+#footer .nav>li>a:focus {
+  text-decoration: none;
+  color: red;
+  background-color: transparent;
 }
+
+.nav-justified li{
+    padding: 0 15px;
+}
+
+.form-group{
+    max-width: 800px;
+}
+
+.img-thumbnail{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#content #googlemap{
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+#content #sendButton{
+    margin-left: 560px;
+}
+

@@ -10,7 +10,7 @@
 	
 	<h2>Bejelentkezés</h2>
   <form name="loginForm" method="post">
-    <label>Név:</label>
+    <label>Felhasználónév:</label>
     <br>
     <input type="text" name="uName">
     <br>

@@ -15,13 +15,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
+    
+    <!-- CSS: -->
     <link rel="stylesheet" type="text/css" href="views/css/base.css">
+    
+    <!-- Lightbox CSS -->
+    <link href="views/lightbox/css/lightbox.css" rel="stylesheet">
+    
+    <!-- Lightbox Javascript -->
+    <script src="views/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- Javascript -->
+    <link rel="stylesheet" type="text/javascript" href="views/js.js">
 
   </head>
   <body>
 
-    <div id="header">
+    <div id="header" class="col-md-12">
       <h1 id="sitename">Bemutato weboldal</h1>
       <?php include('navigation.php'); ?>
     </div>

@@ -1,9 +1,9 @@
 <?php
 
-$DB_HOST = '';
-$DB_USER = '';
+$DB_HOST = 'localhost';
+$DB_USER = 'root';
 $DB_PASS = '';
-$DB_NAME = '';
+$DB_NAME = 'bt-portal';
 
 
-$HOST = 'http://localhost/phpportal';
+$HOST = 'http://localhost/bt-portal';
