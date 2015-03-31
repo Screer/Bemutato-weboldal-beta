@@ -1,13 +1,11 @@
-/* 
-    Created on : 2014.11.25., 11:53:42
-    Author     : rych
-*/
-
 body {
-  margin: 0;
+  margin: auto;
+  max-width: 1000px;
+  background-image: url(../../imgs/bg2bw.jpg);
 }
 
 #header {
+  background-image: url(../../imgs/bg2bw.jpg);
   background-color: #c194f5;
   padding: 10px 20px;
 }
@@ -41,6 +39,7 @@ body {
   background-color: #7b0603;
   color: white;
   padding: 10px 20px;
+  text-align: center;
 }
 
 #header #navigation a {
@@ -57,7 +56,7 @@ body {
 */
 
 .shortText {
-  width: 450px;
+  width: 300px;
 }
 
 .leadText {
@@ -68,4 +67,33 @@ body {
 .longText {
   width: 450px;
   height: 200px;
+}
+
+#table01{
+    width: 100%;
+}
+
+#table02{
+    width: 100%;
+    text-align: center;
+}
+
+#table03 td, th{
+    padding: 15px;
+}
+
+#adminH2{
+    width: 50%;
+}
+
+#adminSubmit{
+    margin-left:15px;
+}
+
+.nav-justified li{
+      padding: 0 10px;
+}
+
+.nav-pills>li>a {
+  border-radius: 0px;
 }

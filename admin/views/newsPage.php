@@ -29,6 +29,8 @@
 	<label>Dátum:</label>
     <br>
     <input type="text" name="date" class="shortText">
+    <p>(A dátum mező kitöltése nem kötelező, automatikus a mai dátum kerül a hírhez.)</p>
+    <br>
     <br>
     <input type="submit" name="newsSubmit">
   </form>

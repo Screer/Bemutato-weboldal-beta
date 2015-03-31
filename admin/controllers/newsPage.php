@@ -12,7 +12,7 @@ if (isset($_POST['newsSubmit'])) {
 
 	
 	// db-be írás:
-	$query = "INSERT INTO news (title, lead, text, date) VALUES ('$newsTitle', '$newsLead', '$newsText', '$newsDate');";
+	$query = "INSERT INTO news (title, lead, text, date) VALUES ('$newsTitle', '$newsLead', '$newsText', now());";
 	$result = $db->query($query);
 	if ($db->errno) {
 		die($db->error);
@@ -20,7 +20,7 @@ if (isset($_POST['newsSubmit'])) {
 	
 	$_SESSION['msg'] = 'Hír rögzítve.';
 		
-	header("Location: $HOST/admin/?q=hirek");
+	header("Location: $HOST/admin/?q=news");
 	exit;
 }
 

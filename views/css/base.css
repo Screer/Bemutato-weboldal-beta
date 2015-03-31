@@ -1,18 +1,21 @@
 body {
-  margin: auto;
-  max-width: 1000px;
-  background-image: url(../../imgs/bg2bw.jpg);
+    margin: auto;
+    max-width: 1000px;
+    background-image: url(../../imgs/body/html.jpg);
+    //background-size: cover;
 }
 
 #header {
-    background-image: url(../../imgs/bg2bw.jpg);
-  //background-color: #c194f5;
-  padding: 10px 20px;
+    background-image: url(../../imgs/header/header_4.jpg);
+    //background-color: #c194f5;
+    padding: 10px 20px;
+    max-width: 100%;
+    background-size: cover;
 }
 
 #header h1#sitename {
-  margin: 30px 0 30px 0;
-  color: white;
+    margin: 30px 0 30px 0;
+    color: white;
 }
 
 #header #navigation a {
@@ -25,33 +28,39 @@ body {
 }
 
 #content {
-  padding: 10px 20px;
-  background-color: #ede8be;
+    margin: auto;
+    max-width: 1000px;
+    padding: 10px 20px;
+    //background-color: #ede8be;
+    background-image: url(../../imgs/content/content_1.jpg);
+    background-size: cover;
+    color: whitesmoke;
 }
 
 .news {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .news .title {
-  border-bottom: 1px solid #555;
-  color: #555;
-  font-weight: bold;
-  font-size: 1.3em;
+    border-bottom: 1px solid #555;
+    color: #555;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 .news .text {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 .news .date {
-  text-align: right;
-  font-style: italic;
+    text-align: right;
+    font-style: italic;
 }
 
 #footer {
-  background-image: url(../../imgs/footer_v3.jpg);
-  background-repeat: no-repeat;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+    background-image: url(../../imgs/footer/footer_2.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    background-size: cover;
 }
 
 #footer a{
@@ -60,9 +69,9 @@ body {
 
 #footer .nav>li>a:hover, 
 #footer .nav>li>a:focus {
-  text-decoration: none;
-  color: red;
-  background-color: transparent;
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
 }
 
 .nav-justified li{
@@ -74,6 +83,7 @@ body {
 }
 
 .img-thumbnail{
+    margin-left: 10px;
     margin-bottom: 15px;
     padding: 5px;
     width: 100%;
@@ -84,9 +94,60 @@ body {
 #content #googlemap{
     padding-top: 50px;
     margin-left: 200px;
+    color: black;
 }
 
-#content #sendButton{
-    margin-left: 560px;
+#content table{
+    width: 100%;
 }
 
+td, th {
+    padding: 15px;
+}
+
+#contactSubmit {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #333;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    margin-left: 0px;
+}
+
+#contactSubmit:hover {
+    background: rgba(9,8,77,0.7);
+}
+
+#productTable{
+    border-color: white;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
+
+#h2format2{
+    margin-left:10px;
+}
+
+#content .col-md-4{
+    padding-left: 50px;
+}
+
+#contactH2{
+    text-decoration: underline;
+}
+
+#content .title{
+    color: white;
+}
+
+#content .title{
+    text-decoration: underline;
+}
+
+.lead{
+    font-size: 16px;
+    font-style: italic;
+}

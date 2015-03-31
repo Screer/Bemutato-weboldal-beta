@@ -3,7 +3,7 @@
 session_start();
 
 require_once 'config.php';
-$db = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+$db = new mysqli('localhost','root','','bt-portal');
 $db->set_charset('utf8');
 
 // Aktuális lap kiválasztása:
@@ -29,6 +29,10 @@ switch ($page) {
   case 'kapcsolat':
     include('controllers/contactPage.php');
     include('views/contactPage.php');
+    break;
+case 'googlemap':
+    include('controllers/googleMapPage.php');
+    include('views/googleMapPage.php');
     break;
   case 'termeklista':
     include('controllers/productListPage.php');
