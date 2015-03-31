@@ -15,7 +15,7 @@
             <p>06/20-1234567</p>
             <h3 id="emailadress">E-mail: </h3>
             <span id="" class="glyphicon glyphicon-envelope"></span>
-            <p>minta@email.com</p>
+            <p>kolozsi.granit@gmail.com</p>
         </div>
         <div class="col-md-8">
             <h2 id="contactFormHeader">Üzenetküldés</h2>
